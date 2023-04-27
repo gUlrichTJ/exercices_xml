@@ -59,14 +59,11 @@
             </noyau_externe>
 
             <noyau_interne>
-                <second_nom>Grane</second_nom>
+                <second_nom>Graine</second_nom>
                 <epaisseur>1200</epaisseur>
                 <unite>km</unite>
                 <densite>13</densite>
-                <roches>
-                    <roche>Fer</roche>
-                    <roche>Nickel</roche>
-                </roches>
+                <roche>Fer</roche>
             </noyau_interne>
         </type_noyau>
     </couche3>

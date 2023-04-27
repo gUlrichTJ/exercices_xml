@@ -16,9 +16,7 @@
     </couche2>
 
     <couche3 nom="noyau" niveau="tres bas">
-        <noyau_externe epaisseur="200" unite="km" densite="10">
-            <roches roche1="fer" roche2="nickel" />
-        </noyau_externe>
+        <noyau_externe epaisseur="200" unite="km" roche="melange fer-nickel" densite="10" />
         <noyau_interne second_nom="graine" epaisseur="1200" unite="km" roche="fer" densite="13" />
     </couche3>
 </description_terre>

@@ -2,9 +2,9 @@
 <description_terre>
     <nom>Structure interne de la terre</nom>
     <couche1>
-        <niveau>Extérieur</niveau>
         <nom>Croute terrestre</nom>
-        <niveaux_de_croute>
+        <niveau>Extérieur</niveau>
+        <types_de_croute>
             <croute_oceanique>
                 <roche>basalte</roche>
                 <densite>3</densite>
@@ -17,14 +17,57 @@
                 <epaisseur>35</epaisseur>
                 <unite>km</unite>
             </croute_continentale>
-        </niveaux_de_croute>
+        </types_de_croute>
     </couche1>
 
     <couche2>
-    
+        <nom>Manteau</nom>
+        <type_manteau>
+            <manteau_superieur>
+                <niveau>Milieu</niveau>
+                <epaisseur>650</epaisseur>
+                <unite>km</unite>
+                <densite>3.3</densite>
+                <mineraux>
+                    <mineral>Olivine</mineral>
+                    <mineral>Pyroxene</mineral>
+                </mineraux>
+            </manteau_superieur>
+
+            <manteau_inferieur>
+                <niveau>Bas</niveau>
+                <epaisseur>2200</epaisseur>
+                <unite>km</unite>
+                <densite>6</densite>
+                <mineral>Pérovskite</mineral>
+            </manteau_inferieur>
+        <type_manteau>
     </couche2>
 
     <couche3>
-    
+        <nom>Noyau</nom>
+        <niveau>Très bas</niveau>
+        <type_noyau>
+            <noyau_externe>
+                <epaisseur>200</epaisseur>
+                <unite>km</unite>
+                <densite>10</densite>
+                <roches>
+                    <roche>Fer</roche>
+                    <roche>Nickel</roche>
+                </roches>
+            </noyau_externe>
+
+            <noyau_interne>
+                <second_nom>Grane</second_nom>
+                <epaisseur>1200</epaisseur>
+                <unite>km</unite>
+                <densite>13</densite>
+                <roches>
+                    <roche>Fer</roche>
+                    <roche>Nickel</roche>
+                </roches>
+            </noyau_interne>
+        </type_noyau>
     </couche3>
 </description_terre>

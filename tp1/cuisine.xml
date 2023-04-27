@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cuisine>
+    <nourriture id="1" type="entree">
+        <nom_repas quantite="1000g">Salade</nom_repas>
+        <elements_necessaires>
+            <element numero="1">Assiette</element>
+            <element numero="2">Cuillère</element>
+        </elements_necessaires>
+        <ingredients>
+            <ingredient numero="1" type="saveur" quantite="0.5g">Sel</ingredient>
+            <ingredient numero="2" type="epice">Oignon</ingredient>
+            <ingredient numero="3" type="legume-racine">Carotte</ingredient>
+            <ingredient numero="4" type="legume">Tomate</ingredient>
+            <ingredient numero="5" type="laitue">Laitue</ingredient>
+            <ingredient numero="6" type="sauce">Vinegrette</ingredient>
+            <ingredient numero="7" type="sauce">Mayonnaise</ingredient>
+            <ingredient numero="4" type="lipide" quantite="0.25L">Huile</ingredient>
+        </ingredients>
+        <temps unite="minute">
+            <temps_total>20</temps_total>
+        </temps>
+        <difficulte>Facile</difficulte>
+    </nourriture>
+
+    <nourriture id="2" type="plat_de_resistance">
+        <nom_repas quantite="1000g">Riz blanc</nom_repas>
+        <elements_necessaires>
+            <element numero="1">Cuisinière</element>
+            <element numero="2">Marmite</element>
+            <element numero="3" quantite="0.75L">Eau</element>
+            <element numero="4" type="optionnel">Spatule</element>
+        </elements_necessaires>
+        <ingredients>
+            <ingredient numero="1" type="saveur" quantite="0.5g">Sel</ingredient>
+            <ingredient numero="2" type="epice">Oignon</ingredient>
+            <ingredient numero="3" type="lipide" quantite="0.25L">Huile</ingredient>
+        </ingredients>
+        <temps unite="minute">
+            <temps_preparation>5</temps_preparation>
+            <temps_cuission>15</temps_cuission>
+            <temps_total>20</temps_total>
+        </temps>
+        <difficulte>Facile</difficulte>
+    </nourriture>
+
+    <nourriture id="3" type="sauce">
+        <nom_repas quantite="500g">Sauce de noix de palme</nom_repas>
+        <elements_necessaires>
+            <element numero="1">Cuisinière</element>
+            <element numero="2">Marmite</element>
+            <element numero="3" quantite="2L">Eau</element>
+            <element numero="4">Passoire</element>
+            <element numero="5">Mortier</element>
+            <element numero="4">Pilon</element>
+        </elements_necessaires>
+        <ingredients>
+            <ingredient numero="1" type="saveur" quantite="0.7g">Sel</ingredient>
+            <ingredient numero="2" type="epice">Oignon</ingredient>
+            <ingredient numero="3" type="epice">Piment</ingredient>
+            <ingredient numero="4" type="viande">Poisson</ingredient>
+            <ingredient numero="5" type="legume">Gboma</ingredient>
+        </ingredients>
+        <temps unite="minute">
+            <temps_preparation>50</temps_preparation>
+            <temps_cuission>70</temps_cuission>
+            <temps_total>120</temps_total>
+        </temps>
+        <difficulte>Intermediaire</difficulte>
+    </nourriture>
+</cuisine>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<description_terre nom="Structure interne de la terre">
+    <couche1 niveau="exterieur" nom="croute terrestre" />
+        <premiere_sorte_de_croute nom="croute oceanique" roche="basalte" densite="3" epaisseur="6" unite="km" />
+        <deuxieme_sorte_de_croute nom="croute continentale" roche="granite" densite="2.7" epaisseur="35" unite="km" />
+    </couche1>
+
+    <couche2 nom="manteau">
+        <manteau_superieur niveau="milieu" epaisseur="650" unite="km" densite="3.3" />
+            <mineraux nom1="olivine" nom2="pyroxene" />
+        </manteau_superieur>
+
+        <manteau_inferieur niveau="bas" epaisseur="2200" unite"km" densite="6" />
+            <mineral nom="pérovskite" />
+        </manteau_inferieur>
+    </couche2>
+
+    <couche3 nom="noyau" niveau="tres bas">
+        <noyau_externe epaisseur="200" unite="km" densite="10" />
+            <roches roche1="fer" roche2="nickel" />
+        </noyau_externe>
+        <noyau_interne second_nom="griane" epaisseur="1200" unite="km" roche="fer" densite="13" />
+    </couche3>
+</description_terre>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<footballeurs xmlns:foot="http://lien-footballeur/football"
+                xmlns:club="http://lien-clubs/club">
+            
+    <footballeur numero="1">
+        <nom>Lilian Thuram</nom>
+        <club:nom id="C1" annees="1990-1996">AS Monaco</club:nom>
+        <club:nom id="C2" annees="2006-2008">FC Barcelone</club:nom>
+    </footballeur>  
+
+    <footballeur numero="2">
+        <nom>Antoine Griezmann</nom>
+        <club:nom id="C2" annees="2019-2023">FC Barcelone</club:nom>
+    </footballeur>   
+    
+</footballeurs>

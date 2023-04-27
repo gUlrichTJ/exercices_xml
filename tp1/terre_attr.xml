@@ -10,7 +10,7 @@
             <mineraux nom1="olivine" nom2="pyroxene" />
         </manteau_superieur>
 
-        <manteau_inferieur niveau="bas" epaisseur="2200" unite"km" densite="6">
+        <manteau_inferieur niveau="bas" epaisseur="2200" unite="km" densite="6">
             <mineral nom="pérovskite" />
         </manteau_inferieur>
     </couche2>

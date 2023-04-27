@@ -1,4 +1,10 @@
 <?xml version="1.0" encoding="utf-8" ?>
+
+<!DOCTYPE description_terre [
+    <!ENTITY croute_oceanique "croute océanique">
+    <!ENTITY croute_continentale "croute continentale">
+]>
+
 <description_terre>
     <nom>Structure interne de la terre</nom>
     <couche1>
@@ -11,6 +17,7 @@
                 <epaisseur>6</epaisseur>
                 <unite>km</unite>
             </croute_oceanique>
+
             <croute_continentale>
                 <roche>granite</roche>
                 <densite>2.7</densite>
@@ -41,7 +48,7 @@
                 <densite>6</densite>
                 <mineral>Pérovskite</mineral>
             </manteau_inferieur>
-        <type_manteau>
+        </type_manteau>
     </couche2>
 
     <couche3>

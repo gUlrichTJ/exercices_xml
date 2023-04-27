@@ -1,4 +1,30 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <description_terre>
     <nom>Structure interne de la terre</nom>
+    <couche1>
+        <niveau>Extérieur</niveau>
+        <nom>Croute terrestre</nom>
+        <niveaux_de_croute>
+            <croute_oceanique>
+                <roche>basalte</roche>
+                <densite>3</densite>
+                <epaisseur>6</epaisseur>
+                <unite>km</unite>
+            </croute_oceanique>
+            <croute_continentale>
+                <roche>granite</roche>
+                <densite>2.7</densite>
+                <epaisseur>35</epaisseur>
+                <unite>km</unite>
+            </croute_continentale>
+        </niveaux_de_croute>
+    </couche1>
+
+    <couche2>
+    
+    </couche2>
+
+    <couche3>
+    
+    </couche3>
 </description_terre>

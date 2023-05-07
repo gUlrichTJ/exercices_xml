@@ -40,7 +40,7 @@
             <temps_cuission>15</temps_cuission>
             <temps_total>20</temps_total>
         </temps>
-        <difficulte>Facile</difficulte>
+        <difficulte>Intermediaire</difficulte>
     </nourriture>
 
     <nourriture id="3" type="sauce">
@@ -65,6 +65,6 @@
             <temps_cuission>70</temps_cuission>
             <temps_total>120</temps_total>
         </temps>
-        <difficulte>Intermediaire</difficulte>
+        <difficulte>Difficile</difficulte>
     </nourriture>
 </cuisine>

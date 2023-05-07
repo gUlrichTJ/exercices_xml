@@ -8,7 +8,7 @@
     <couche2 nom="manteau">
         <manteau_superieur niveau="milieu" epaisseur="650" unite="km" densite="3.3">
             <mineraux nom1="olivine" nom2="pyroxene" />
-        </manteau_superieur>
+            </manteau_superieur>
 
         <manteau_inferieur niveau="bas" epaisseur="2200" unite="km" densite="6">
             <mineral nom="pérovskite" />

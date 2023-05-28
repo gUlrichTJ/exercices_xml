@@ -1,0 +1,106 @@
+﻿# Fichier spatial.xml
+
+Question 3.1.a spatial.xml : Afficher les noms des nations qui ont un programme spatial
+/... 
+//nation[programme_spatial/@nom = 'USA']/@nom
+//nation[programme_spatial/@nom = 'URSS']/@nom
+
+
+Question 3.1.b spatial.xml : Afficher les noms des astronautes dont le rôle a été au moins une fois pilote (doublons compris)
+/...
+//astronaute[role[contains(., 'pilote')]]/@nom
+
+
+Question 3.1.c spatial.xml : Afficher les noms des missions effectuées par Gordon Cooper
+/...
+//astronaute[nom = 'Gordon Cooper']/missions/mission/@nom
+
+Question 3.1.d spatial.xml : Afficher les dates des missions dont le but est absent ou vide
+/...
+//mission[not(but) or string-length(normalize-space(but)) = 0]/date/text()
+
+
+Question 3.1.e spatial.xml : Afficher l'élément <astronaute> du pilote de la mission Apollo 11
+/...
+/missons/mission[nom="Apollo 11"]/equipage/role[text()="pilote"]/preceding-sibling::astronaute[1]
+
+
+Question 3.1.f spatial.xml : Afficher les noms des missions ayant au moins un but en commun avec ceux de Gemini 12
+/...
+/missons/mission[but = /missons/mission[nom = "Gemini 12"]/but]/nom
+
+
+Question 3.1.g spatial.xml : Afficher les éléments <but> des missions du programme Apollo avec Gene Cernan
+/...
+/missons/mission[nom = "Apollo" and astronautes/astronaute = "Gene Cernan"]/but
+
+
+Question 3.1.h spatial.xml : Afficher le nom des missions non habitées et sans événement (aucun élément evenement dedans)
+/...
+/missons/mission[habite = "non" and not(evenement)]/nom
+
+Question 3.1.i spatial.xml : Afficher l'élément <mission> de la dernière mission automatique russe
+/...
+//programme[nom="Russe"]/mission[./type="automatique"][last()]
+
+
+Question 3.1.j spatial.xml : Afficher l'élément <mission> de la mission qui précède Soyouz 4 dans le fichier
+/...
+//programme[nom="Russe"]/mission[nom="Soyouz 4"]/preceding-sibling::mission[1]
+
+
+Question 3.1.k spatial.xml : Afficher les noms des missions qui ne comptent qu'un seul astronaute
+/...
+//mission[count(astronaute) = 1]/nom
+
+
+
+# Fichier arbres.xml
+
+Question 3.2.a arbres.xml : Afficher les noms des lieux du 5e arrondissement dans lesquels il y a un arbre
+/...
+//arbre[lieu/adresse[@arrondissement='5']]/lieu/nom
+
+
+Question 3.2.b arbres.xml : Afficher les numéros d'arrondissement où se trouvent des arbres du genre Taxus
+/...
+//arbre[genre='Taxus']/lieu/adresse/@arrondissement
+
+
+Question 3.2.c arbres.xml : Afficher le nom du lieu des arbres dont l'adresse est vide
+/...
+
+Question 3.2.d arbres.xml : Afficher les noms communs des arbres du Bois de Vincennes
+/...
+//arbre[lieu/adresse[not(text())]]/lieu/nom
+
+
+Question 3.2.e arbres.xml : Afficher les noms des lieux d'arbres de plus de 600cm de circonférence
+/...
+//arbre[circonference > 600]/lieu/nom
+
+
+Question 3.2.f arbres.xml : Afficher les hauteurs des arbres plantés entre 1800 et 1850 compris
+/...
+//arbre[annee >= 1800 and annee <= 1850]/hauteur
+
+
+Question 3.2.g arbres.xml : Afficher les noms communs des arbres de la même espèce que celui planté en 1897
+/...
+//arbre[annee = 1897]/nom_commun
+
+
+Question 3.2.h arbres.xml : Afficher les identifiants des arbres dont l'adresse est vide
+/...
+//arbre[lieu/adresse/text() = '']/@id
+
+
+Question 3.2.i arbres.xml : Afficher les années des arbres du genre Fagus dans le 16e arrondissement
+/...
+//arbre[genre = 'Fagus' and lieu/adresse/@arrondissement = '16']/annee/text()
+
+
+Question 3.2.j arbres.xml : Afficher l'identifiant du premier arbre (du fichier) situé dans le 19e arrondissement
+/...
+//arbre[lieu/adresse/@arrondissement = '19'][1]/@id
+

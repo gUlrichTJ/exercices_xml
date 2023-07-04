@@ -1,0 +1,18 @@
+<!ELEMENT albums ( album+ )>
+
+<!ELEMENT album ( titre, auteur*, date, isbn? )>
+<!ATTLIST album
+    numero CDATA #REQUIRED
+    serie CDATA #REQUIRED>
+
+<!ELEMENT titre ( #PCDATA )>
+
+<!ELEMENT auteur ( #PCDATA )>
+
+<!ELEMENT date ( (mois, annee) | (annee, mois) )>
+
+<!ELEMENT annee ( #PCDATA )>
+
+<!ELEMENT mois ( #PCDATA )>
+
+<!ELEMENT isbn ( #PCDATA )>

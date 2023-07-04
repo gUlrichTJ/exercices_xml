@@ -1,0 +1,40 @@
+<!-- solution de l'exercice DTD -->
+
+<!-- définition de l'élément racine -->
+<!ELEMENT programmes (nation*)>
+
+<!-- définition de l'élément nation -->
+<!ELEMENT nation (programme+)>
+<!ATTLIST nation
+    nom ID #REQUIRED>
+
+<!-- définition de l'élément programme -->
+<!ELEMENT programme (objectif, mission*)>
+<!ATTLIST programme
+    nom         CDATA #REQUIRED
+    debut       CDATA #REQUIRED
+    fin         CDATA #REQUIRED
+    missions    CDATA #IMPLIED>
+
+<!-- définition de l'élément objectif -->
+<!ELEMENT objectif (#PCDATA)>
+
+<!-- définition de l'élément mission -->
+<!ELEMENT mission (but*,evenement?,astronaute*)>
+<!ATTLIST mission
+    nom   CDATA #REQUIRED
+    type  (habité|automatique) "automatique"
+    date  CDATA #REQUIRED
+    fin   CDATA #IMPLIED>
+
+<!-- définition de l'élément but -->
+<!ELEMENT but (#PCDATA)>
+
+<!-- définition de l'élément astronaute -->
+<!ELEMENT evenement (#PCDATA)>
+
+<!-- définition de l'élément astronaute -->
+<!ELEMENT astronaute (#PCDATA)>
+<!ATTLIST astronaute
+    role (commandant|pilote|équipage) "équipage">
+

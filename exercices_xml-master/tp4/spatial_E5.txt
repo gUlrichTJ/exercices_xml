@@ -1,0 +1,49 @@
+Les Buts des missions.
+Missions : Buts
+Mercury 3 : Premier vol spatial américain
+Mercury 4 : Test sub-orbital
+Mercury 6 : Premier vol orbital
+Mercury 7 : Expériences sur l'impesanteur
+Mercury 9 : Vol de longue durée
+
+Gemini 1 : Tester l'intégrité de la capsule
+Gemini 2 : Test sub-orbital
+Gemini 3 : Test en équipage
+Gemini 4 : Sortie dans l'espace
+Gemini 5 : Vol de longue durée
+Gemini 6 : Rendez-vous orbital
+Gemini 7 : Vol de longue durée
+Gemini 8 : Rendez-vous orbital
+Gemini 9 : Rendez-vous orbital
+Gemini 10 : Rendez-vous orbital
+Gemini 11 : Rendez-vous orbital
+Gemini 12 : Rendez-vous orbital
+
+Apollo 1 : Test du vaisseau
+Apollo 4 : Tester la fusée Saturn V
+Apollo 5 : Tester le module lunaire
+Apollo 7 : Première mission Apollo habitée
+Apollo 8 : Premier vol derrière la Lune
+Apollo 9 : Essai du module lunaire
+Apollo 10 : Mise en orbite et approche de la lune
+Apollo 11 : Premier alunissage
+Apollo 12 : Alunissage de précision
+Apollo 14 : Exploration de la zone Fra Mauro
+Apollo 15 : Exploration de la zone Hadley
+Apollo 16 : Exploration de la zone Descartes
+Apollo 17 : Exploration de la vallée de Taurus-Littrow
+
+Vostok 1 : Premier vol spatial
+Vostok 2 : Premier vol de longue durée
+Vostok 3 : Premier vol simultané
+Vostok 4 : Premier vol simultané
+Vostok 5 : Vol de longue durée
+Vostok 6 : Première femme dans l'espace
+
+Voskhod 1 : Premier vol à plusieurs astronautes
+Voskhod 2 : Première marche dans l'espace
+
+Soyouz 1 : Première mission du programme
+Soyouz 3 : Rendez-vous orbital, Amarrage avec Soyouz 2
+Soyouz 4 : Rendez-vous orbital, Amarrage avec Soyouz 5
+Soyouz 5 : Rendez-vous orbital, Amarrage avec Soyouz 5

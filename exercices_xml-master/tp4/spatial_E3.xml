@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<missions nombre="41" nb_astronautes="83">
+             
+    <mission nation="USA" nom="Mercury 3" nb_astronautes="1" />
+    <mission nation="USA" nom="Mercury 4" nb_astronautes="1" />
+    <mission nation="USA" nom="Mercury 7" nb_astronautes="1" />         
+    <mission nation="USA" nom="Mercury 8" nb_astronautes="1" />
+    <mission nation="USA" nom="Mercury 9" nb_astronautes="1" />
+
+    <mission nation="USA" nom="Gemini 3" nb_astronautes="2" />
+    <mission nation="USA" nom="Gemini 4" nb_astronautes="2" />
+    <mission nation="USA" nom="Gemini 5" nb_astronautes="2" />
+    <mission nation="USA" nom="Gemini 6" nb_astronautes="2" />
+    <mission nation="USA" nom="Gemini 7" nb_astronautes="2" />
+    <mission nation="USA" nom="Gemini 8" nb_astronautes="2" />
+    <mission nation="USA" nom="Gemini 9" nb_astronautes="2" />
+    <mission nation="USA" nom="Gemini 10" nb_astronautes="2" />
+    <mission nation="USA" nom="Gemini 11" nb_astronautes="2" />
+    <mission nation="USA" nom="Gemini 12" nb_astronautes="2" />
+
+    <mission nation="USA" nom="Apollo 1" nb_astronautes="3" />
+    <mission nation="USA" nom="Apollo 7" nb_astronautes="3" />
+    <mission nation="USA" nom="Apollo 8" nb_astronautes="3" />
+    <mission nation="USA" nom="Apollo 9" nb_astronautes="3" />
+    <mission nation="USA" nom="Apollo 10" nb_astronautes="3" />
+    <mission nation="USA" nom="Apollo 11" nb_astronautes="3" />
+    <mission nation="USA" nom="Apollo 12" nb_astronautes="3" />
+    <mission nation="USA" nom="Apollo 13" nb_astronautes="3" />
+    <mission nation="USA" nom="Apollo 14" nb_astronautes="3" />
+    <mission nation="USA" nom="Apollo 15" nb_astronautes="3" />
+    <mission nation="USA" nom="Apollo 16" nb_astronautes="3" />
+    <mission nation="USA" nom="Apollo 17" nb_astronautes="3" />
+
+    <mission nation="URSS" nom="Vostok 1" nb_astronautes="1" />
+    <mission nation="URSS" nom="Vostok 2" nb_astronautes="1" />
+    <mission nation="URSS" nom="Vostok 3" nb_astronautes="1" />
+    <mission nation="URSS" nom="Vostok 4" nb_astronautes="1" />
+    <mission nation="URSS" nom="Vostok 5" nb_astronautes="1" />
+    <mission nation="URSS" nom="Vostok 6" nb_astronautes="1" />
+
+    <mission nation="URSS" nom="Voskhod 1" nb_astronautes="2" />
+    <mission nation="URSS" nom="Voskhod 2" nb_astronautes="2" />
+
+    <mission nation="URSS" nom="Soyouz 1" nb_astronautes="2" />
+    <mission nation="URSS" nom="Soyouz 3" nb_astronautes="2" />
+    <mission nation="URSS" nom="Soyouz 4" nb_astronautes="2" />
+    <mission nation="URSS" nom="Soyouz 5" nb_astronautes="2" />
+    <mission nation="URSS" nom="Soyouz 6" nb_astronautes="2" />
+
+</missions>

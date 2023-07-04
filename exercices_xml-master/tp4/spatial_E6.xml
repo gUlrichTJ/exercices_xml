@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<astronautes>
+    <astronaute nom="Alan Shepard">
+        <commandant><mission>Apollo 14</mission></commandant>
+        <pilote />
+        <membre><mission>Mercury 3</mission></membre>
+    </astronaute>
+
+     <astronaute nom="Virgil Grissom">
+        <commandant><mission>Mercury 4</mission><mission>Gemini 3</mission><mission>Apollo 1</mission></commandant>
+        <pilote />
+        <membre />
+    </astronaute>
+
+    <astronaute nom="John Glenn">
+        <commandant><mission>Mercury 6</mission></commandant>
+        <pilote />
+        <membre />
+    </astronaute>
+
+    <astronaute nom="Scott Carpenter">
+        <commandant><mission>Mercury 7</mission></commandant>
+        <pilote />
+        <membre />
+    </astronaute>
+
+    <astronaute nom="Walter Schirra">
+        <commandant><mission>Apollo 7</mission></commandant>
+        <pilote />
+        <membre><mission>Mercury 8</mission><mission>Gemini 6</mission></membre>
+    </astronaute>
+
+    <astronaute nom="Gordon Cooper">
+        <commandant><mission>Mercury 9</mission><mission>Gemini 5</mission><mission>Apollo 16</mission></commandant>
+        <pilote><mission>Apollo 10</mission></pilote>
+        <membre />
+    </astronaute>
+
+    <astronaute nom="John Young">
+        <commandant><mission>Gemini 10</mission><mission>Apollo 16</mission></commandant>
+        <pilote><mission>Apollo 1O</mission></pilote>
+        <membre><mission>Gemini 3</mission></membre>
+    </astronaute>
+
+    <astronaute nom="James McDivitt">
+        <commandant><mission>Gemini 4</mission><mission>Apollo 9</mission></commandant>
+        <pilote />
+        <membre />
+    </astronaute>
+
+     <astronaute nom="Edward White">
+        <commandant />
+        <pilote />
+        <membre><mission>Gemini 4</mission><mission>Apollo 1</mission></membre>
+    </astronaute>
+
+    <astronaute nom="Pete Conrad">
+        <commandant><mission>Gemini 10</mission><mission>Gemini 11</mission><mission>Apollo 12</mission></commandant>
+        <pilote />
+        <membre><mission>Gemini 5</mission></membre>
+    </astronaute>
+
+     <astronaute nom="Thomas Stafford">
+        <commandant><mission>Gemini 9</mission><mission>Apollo 10</mission><mission>Gemini 7</mission></commandant>
+        <pilote />
+        <membre><mission>Gemini 6</mission></membre>
+    </astronaute>
+
+    <astronaute nom="Jim Lovell">
+        <commandant><mission>Gemini 12</mission><mission>Apollo 13</mission></commandant>
+        <pilote><mission>Apollo 8</mission></pilote>
+        <membre><mission>Gemini 7</mission></membre>
+    </astronaute>
+
+    <astronaute nom="Dave Scott">
+        <commandant><mission>Apollo 15</mission></commandant>
+        <pilote><mission>Apollo 9</mission></pilote>
+        <membre><mission>Gemini 8</mission></membre>
+    </astronaute>
+
+    <astronaute nom="Franck Borman">
+        <commandant><mission>Gemini 7</mission><mission>Apollo 8</mission></commandant>
+        <pilote />
+        <membre/>
+    </astronaute>
+
+    <astronaute nom="Neil Armstrong">
+        <commandant><mission>Gemini 8</mission><mission>Apollo 11</mission></commandant>
+        <pilote />
+        <membre/>
+    </astronaute>
+
+    <astronaute nom="Gene Cernan">
+        <commandant><mission>Apollo 17</mission></commandant>
+        <pilote />
+        <membre><mission>Gemini 9</mission><mission>Apollo 10</mission></membre>
+    </astronaute>
+
+    <astronaute nom="Michael Collins">
+        <commandant />
+        <pilote />
+        <membre><mission>Gemini 10</mission><mission>Apollo 11</mission></membre>
+    </astronaute>
+
+    <astronaute nom="Richard Gordon">
+        <commandant />
+        <pilote><mission>Apollo 12</mission></pilote>
+        <membre><mission>Gemini 11</mission></membre>
+    </astronaute>
+
+    <astronaute nom="Edwin Aldrin">
+        <commandant />
+        <pilote><mission>Apollo 11</mission></pilote>
+        <membre><mission>Gemini 12</mission></membre>
+    </astronaute>
+
+</astronautes>
